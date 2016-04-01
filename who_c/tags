@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SHOWHOST	who1.c	7;"	d	file:
+STORESIZE	utmplib.c	6;"	d	file:
+UTMPSIZE	utmplib.c	5;"	d	file:
+closeUtmp	utmplib.c	/^void closeUtmp()$/;"	f
+closeUtmp	who1.c	/^void closeUtmp();$/;"	p	file:
+getNext	utmplib.c	/^struct utmp* getNext()$/;"	f
+getNext	who1.c	/^struct utmp* getNext();$/;"	p	file:
+getnum	utmplib.c	/^static int getnum = 0;$/;"	v	file:
+index	utmplib.c	/^static int index = 0;$/;"	v	file:
+main	who1.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+openUtmp	utmplib.c	/^int openUtmp()$/;"	f
+openUtmp	who1.c	/^void openUtmp();$/;"	p	file:
+show_info	who1.c	/^void show_info(struct utmp *utbufp)$/;"	f	signature:(struct utmp *utbufp)
+show_info	who1.c	/^void show_info(struct utmp*);$/;"	p	file:	signature:(struct utmp*)
+show_time	who1.c	/^void show_time(long ltime)$/;"	f	signature:(long ltime)
+show_time	who1.c	/^void show_time(long);$/;"	p	file:	signature:(long)
+storeUtmp	utmplib.c	/^int storeUtmp()$/;"	f
+storeUtmp	who1.c	/^int storeUtmp();$/;"	p	file:
+utmpfd	utmplib.c	/^static int utmpfd;$/;"	v	file:
+utmpstore	utmplib.c	/^static struct utmp utmpstore[STORESIZE];$/;"	v	typeref:struct:utmp	file:
